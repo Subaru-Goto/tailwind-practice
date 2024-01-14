@@ -8,7 +8,7 @@ const App = () => (
   <main className="relative">
     <Nav />
     <section 
-    className="xl:padding-1 wide:padding-r padding-b">
+    className="xl:padding-l wide:padding-r padding-b">
       <Hero />
     </section>
     <section className="padding">
@@ -29,9 +29,9 @@ const App = () => (
     <section className="padding-x sm:py-32 py-16 w-full">
       <Subscribe />
     </section>
-    <footer className="padding-x padding-t bg-black pb-8">
+    <section className="padding-x padding-t bg-black pb-8">
         <Footer />
-    </footer>
+    </section>
   </main>
 );
 
